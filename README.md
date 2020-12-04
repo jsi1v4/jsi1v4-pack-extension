@@ -21,7 +21,7 @@ Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
   "editor.fontSize": 16,
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
   "editor.formatOnSave": true,
@@ -62,6 +62,8 @@ Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
+  // Terminal
+  "terminal.integrated.fontFamily": "monospace",
   // Git
   "git.autofetch": true,
   // Extensions
