@@ -10,7 +10,7 @@
     "author": "Jsi1v4 <me@jsi1v4.dev>",
     "publisher": "jsi1v4",
     "license": "GPL-3.0",
-    "icon": "https://raw.githubusercontent.com/jsi1v4/jsi1v4-pack-extension/master/assets/icon.png",
+    "icon": "assets/icon.png",
     "galleryBanner": {
         "color": "#2C2C2C",
         "theme": "dark"
