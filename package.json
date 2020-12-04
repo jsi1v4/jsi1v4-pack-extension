@@ -1,0 +1,32 @@
+{
+    "name": "jsi1v4.pack-extension",
+    "displayName": "Fullstack Pack Extension",
+    "description": "Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust applications.",
+    "version": "1.0.0",
+    "repository": "https://github.com/jsi1v4/jsi1v4-pack-extension.git",
+    "author": "Jsi1v4 <me@jsi1v4.dev>",
+    "license": "GPL-3.0",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "aaron-bond.better-comments",
+        "akamud.vscode-theme-onedark",
+        "Angular.ng-template",
+        "bungcip.better-toml",
+        "CoenraadS.bracket-pair-colorizer",
+        "eamodio.gitlens",
+        "johnpapa.Angular2",
+        "jpoissonnier.vscode-styled-components",
+        "MariusAlchimavicius.json-to-ts",
+        "mhutchie.git-graph",
+        "msjsdiag.vscode-react-native",
+        "natewallace.angular2-inline",
+        "PKief.material-icon-theme",
+        "rust-lang.rust",
+        "serayuzgur.crates"
+    ]
+}
