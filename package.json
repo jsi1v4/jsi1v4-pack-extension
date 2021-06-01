@@ -12,7 +12,7 @@
   },
   "author": "Jsi1v4 <me@jsi1v4.dev>",
   "publisher": "jsi1v4",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "icon": "assets/icon.png",
   "galleryBanner": {
     "color": "#2C2C2C",
