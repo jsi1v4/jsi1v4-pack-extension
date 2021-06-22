@@ -9,10 +9,10 @@ Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Atom One Dark",
-  "workbench.startupEditor": "welcomePage",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.pinnedTabSizing": "compact",
   // Window
-  "window.menuBarVisibility": "toggle",
-  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
   // "window.zoomLevel": 1.2,
   // Editor
   "editor.codeActionsOnSave": {
@@ -31,7 +31,7 @@ Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
   "editor.dragAndDrop": false,
-  "editor.fontFamily": "'Cantarell Regular', monospace",
+  "editor.fontFamily": "'Fira Sans', monospace",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Terminal
   "terminal.integrated.cursorBlinking": true,
@@ -58,6 +58,7 @@ Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
+  "explorer.autoReveal": false,
   // Git
   "git.autofetch": true,
   // Icons
@@ -74,7 +75,3 @@ Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust
   }
 }
 ```
-
-## About
-
-- **Author**: Jose Silva
