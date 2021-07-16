@@ -10,7 +10,7 @@
   "scripts": {
     "build": "vsce package"
   },
-  "author": "Jsi1v4 <me@jsi1v4.dev>",
+  "author": "Jsi1v4 <git@jsi1v4.com>",
   "publisher": "jsi1v4",
   "license": "MIT",
   "icon": "assets/icon.png",
