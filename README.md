@@ -1,9 +1,34 @@
 # Jsi1v4 Pack Extension
 
-Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust applications 😎🖖.
+Pack with best extensions to develop Angular, React, Vue, NodeJs, React-Native, Flutter and Rust applications 😎🖖.
+
+> See my settings below =]
+
+## Extension List
+- Angular Language Service
+- Angular Snippets
+- Angular Template Inline
+- Atom One Dark Theme
+- Auto Close Tag
+- Better Comments
+- Better Toml
+- Bracket Pair Colorizer
+- Change Case
+- Crates
+- ESLint
+- Flutter
+- Git Graph
+- GitLens
+- JSON to TS
+- Material Icon Theme
+- Prettier
+- React Native Tools
+- Rust
+- Thunder Client
+- Vetur
+- VsCode Styled Components
 
 ## Recommended Settings
-
 ```
 {
   // Workbench
@@ -24,14 +49,14 @@ Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust
   "editor.fontSize": 16,
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.minimap.enabled": true,
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "all",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
   "editor.dragAndDrop": false,
-  "editor.fontFamily": "'Fira Sans', monospace",
+  // "editor.fontFamily": "'Fira Sans', monospace",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Terminal
   "terminal.integrated.cursorBlinking": true,

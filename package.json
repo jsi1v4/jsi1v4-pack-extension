@@ -2,7 +2,7 @@
   "name": "jsi1v4-pack-extension",
   "displayName": "Fullstack Pack Extension",
   "description": "Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust applications.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/jsi1v4/jsi1v4-pack-extension.git"
@@ -25,23 +25,28 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "aaron-bond.better-comments",
-    "akamud.vscode-theme-onedark",
     "Angular.ng-template",
+    "johnpapa.Angular2",
+    "natewallace.angular2-inline",
+    "akamud.vscode-theme-onedark",
+    "formulahendry.auto-close-tag",
+    "aaron-bond.better-comments",
     "bungcip.better-toml",
     "CoenraadS.bracket-pair-colorizer",
-    "eamodio.gitlens",
-    "johnpapa.Angular2",
-    "jpoissonnier.vscode-styled-components",
-    "MariusAlchimavicius.json-to-ts",
-    "mhutchie.git-graph",
-    "msjsdiag.vscode-react-native",
-    "natewallace.angular2-inline",
-    "PKief.material-icon-theme",
-    "rust-lang.rust",
+    "wmaurer.change-case",
     "serayuzgur.crates",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "dart-code.flutter",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "MariusAlchimavicius.json-to-ts",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "msjsdiag.vscode-react-native",
+    "rust-lang.rust",
+    "rangav.vscode-thunder-client",
+    "octref.vetur",
+    "jpoissonnier.vscode-styled-components"
   ],
   "devDependencies": {
     "vsce": "^1.85.0"
