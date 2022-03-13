@@ -1,14 +1,15 @@
 {
   "name": "jsi1v4-pack-extension",
   "displayName": "Fullstack Pack Extension",
-  "description": "Pack with best extensions to develop Angular, React, NodeJs, React-Native e Rust applications.",
-  "version": "1.1.0",
+  "description": "Pack with best extensions to develop Angular, React, Vue, NodeJs, React-Native, Flutter and Rust applications.",
+  "version": "1.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/jsi1v4/jsi1v4-pack-extension.git"
   },
   "scripts": {
-    "build": "vsce package"
+    "prebuild": "rm -rf dist/ && mkdir dist/",
+    "build": "vsce package -o \"dist/jsi1v4-pack-extension-$(cat package.json  | jq -r '.version').vsix\""
   },
   "author": "Jsi1v4 <git@jsi1v4.com>",
   "publisher": "jsi1v4",
@@ -25,28 +26,31 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "Angular.ng-template",
-    "johnpapa.Angular2",
+    "angular.ng-template",
+    "johnpapa.angular2",
     "natewallace.angular2-inline",
-    "akamud.vscode-theme-onedark",
-    "formulahendry.auto-close-tag",
     "aaron-bond.better-comments",
     "bungcip.better-toml",
-    "CoenraadS.bracket-pair-colorizer",
+    "coenraads.bracket-pair-colorizer",
     "wmaurer.change-case",
     "serayuzgur.crates",
+    "dart-code.dart-code",
+    "editorconfig.editorconf",
     "dbaeumer.vscode-eslint",
     "dart-code.flutter",
     "mhutchie.git-graph",
+    "github.github-vscode-theme",
     "eamodio.gitlens",
-    "MariusAlchimavicius.json-to-ts",
-    "PKief.material-icon-theme",
+    "mariusalchimavicius.json-to-ts",
+    "pkief.material-icon-theme",
     "esbenp.prettier-vscode",
     "msjsdiag.vscode-react-native",
     "rust-lang.rust",
     "rangav.vscode-thunder-client",
+    "wayou.vscode-todo-highlight",
     "octref.vetur",
-    "jpoissonnier.vscode-styled-components"
+    "jpoissonnier.vscode-styled-components",
+    "johnsoncodehk.volar"
   ],
   "devDependencies": {
     "vsce": "^1.85.0"
