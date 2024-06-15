@@ -41,3 +41,17 @@ All notable changes to the "jsi1v4.pack-extension" extension pack will be docume
 ### Changed
 
 - Setting (on README)
+
+## [1.3.0] - 2024-06-15
+
+### Added
+
+- Formatter extensions
+
+### Removed
+
+- Deprecated extensions
+
+### Changed
+
+- Setting (on README)

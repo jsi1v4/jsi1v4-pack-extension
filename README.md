@@ -1,27 +1,32 @@
 # Jsi1v4 Pack Extension
 
-Pack with best extensions to develop Angular, React, Vue, NodeJs, React-Native, Flutter and Rust applications 😎🖖.
+Pack with best extensions to Fullstack developers (Angular, React, Vue, React-Native, NodeJs, C# and Java) 😎🖖.
 
 > See my settings below =]
 
 ## Recommended Settings
 
+Open VsCode Settings with JSON file
+
 ```
 {
   // Workbench
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   // Window
-  "window.menuBarVisibility": "visible",
+  "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
+  "window.enableMenuBarMnemonics": false,
+  "window.dialogStyle": "custom",
+  "window.density.editorTabHeight": "compact",
   // "window.zoomLevel": 1.2,
   // Editor
   "editor.codeActionsOnSave": {
-    "source.organizeImports": false
+    "source.organizeImports": "always"
   },
   "editor.cursorBlinking": "blink",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.fontSize": 16,
   "editor.formatOnPaste": false,
@@ -36,6 +41,12 @@ Pack with best extensions to develop Angular, React, Vue, NodeJs, React-Native, 
   "editor.fontFamily": "'Cantarell Regular', monospace",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.hover.delay": 1500,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // Terminal
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
@@ -66,9 +77,11 @@ Pack with best extensions to develop Angular, React, Vue, NodeJs, React-Native, 
   // Git
   "git.autofetch": true,
   "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
   // Extensions
   "prettier.trailingComma": "none",
   "prettier.endOfLine": "auto",
-  "bracketPairColorizer.depreciation-notice": false
+  "redhat.telemetry.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
 ```
