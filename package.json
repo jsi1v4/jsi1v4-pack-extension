@@ -2,7 +2,7 @@
   "name": "jsi1v4-pack-extension",
   "displayName": "Fullstack Pack Extension",
   "description": "Pack with best extensions to Fullstack developers.",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/jsi1v4/jsi1v4-pack-extension.git"
@@ -39,7 +39,6 @@
     "wmaurer.change-case",
     "aaron-bond.better-comments",
     "wayou.vscode-todo-highlight",
-    "formulahendry.auto-close-tag",
     "mariusalchimavicius.json-to-ts",
     "msjsdiag.vscode-react-native",
     "styled-components.vscode-styled-components",
@@ -50,6 +49,8 @@
     "ms-vsliveshare.vsliveshare",
     "unifiedjs.vscode-mdx",
     "christian-kohler.path-intellisense",
-    "redhat.vscode-xml"
+    "redhat.vscode-xml",
+    "vscjava.vscode-java-pack",
+    "ms-python.python"
   ]
 }
